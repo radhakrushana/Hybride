@@ -87,6 +87,8 @@ public class Createcontact {
 		  //To enter first name
 		  driver.findElement(By.name("firstname")).sendKeys(FIRSTNAME);
 		  
+		  //To add Notify owner
+		  driver.findElement(By.name("notify_owner")).click();
 		  //To enter Last name
 		  driver.findElement(By.name("lastname")).sendKeys(LASTNAME);
 		  
