@@ -143,7 +143,8 @@ public class Createcontact {
 	     
 	    //Click on signout button
 	      driver.findElement(By.xpath("//a[text()='Sign Out']")).click();
-	     
+	      
+	      Thread.sleep(2000);
 	     
 	     
 	}
